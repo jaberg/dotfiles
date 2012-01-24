@@ -6,11 +6,8 @@ test -f /etc/profile && source /etc/profile
 # common bourne shell config
 source $HOME/.shrc
 
-if [ -z "$_BASHRC_DONE" ] ; then
-	. .virtualenv/base/bin/activate
-	export _BASHRC_DONE="YES"
-	export PYTHONPATH=~/cvs/PYTHONPATH:$PYTHONPATH
-fi
+. .virtualenv/base/bin/activate
+export PYTHONPATH=~/cvs/PYTHONPATH:$PYTHONPATH
 
 # Test for an interactive shell.  There is no need to set anything
 # past this point for scp and rcp, and it's important to refrain from
