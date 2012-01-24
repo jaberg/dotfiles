@@ -151,8 +151,8 @@ nmap <leader>mm :set mouse= nonumber nolist <CR>
 " Use the same symbols as TextMate for tabstops and EOLs
 " from http://vimcasts.org/episodes/show-invisibles
 "set listchars=tab:>.,trail:.,extends:#,nbsp:.
-set list
-set listchars=tab:▸\ ,eol:¬,trail:~
+"""set list
+"""set listchars=tab:\|\ ,eol:¬,trail:~
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
 
