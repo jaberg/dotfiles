@@ -1,7 +1,7 @@
 [user]
-    npinto = Nicolas Pinto
-    name = Nicolas Pinto
-    email = pinto@mit.edu
+    jaberg = James Bergstra
+    name = James Bergstra
+    email = james.bergstra@gmail.com
 [alias]
     ci = commit
     cim = commit -m
@@ -16,4 +16,4 @@
     lg = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)[%an]%Creset' --abbrev-commit --date=relative"
     lgol = "!git --no-pager log --pretty=oneline"
 [github]
-    user = npinto
+    user = jaberg
