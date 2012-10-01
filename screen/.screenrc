@@ -14,3 +14,11 @@ termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
 # erase background with current bg color
 defbce "on"
 
+# Turn off start message:
+startup_message off
+
+# Set messages timeout to one second: 
+msgwait 1
+
+#this might help scrolling to work
+termcapinfo xterm ti@:te@
