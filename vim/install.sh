@@ -17,6 +17,8 @@ for f in .vim{rc,}; do
 done;
 
 # build command-t C extension
-./build_command-t.sh
+
+# DISABLING BECAUSE IT JUST FAILED TO RUN (Oct 2012)
+# ./build_command-t.sh
 
 # vim: expandtab tabstop=4 shiftwidth=4 autoindent smartindent tw=80:
