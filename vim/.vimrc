@@ -125,7 +125,7 @@ au BufRead,BufNewFile *.e{build,class} set ts=4 sw=4 noexpandtab
 " -- Visuals
 " -------------------------------------------------------------------
 " numbers
-set number
+set nonumber
 
 " highlight search terms
 "set hlsearch
@@ -154,6 +154,7 @@ nmap <leader>mm :set mouse= nonumber nolist <CR>
 """set list
 """set listchars=tab:\|\ ,eol:¬,trail:~
 " Shortcut to rapidly toggle `set list`
+set nolist
 nmap <leader>l :set list!<CR>
 
 " visual guides
@@ -180,7 +181,7 @@ set guicursor+=a:blinkon0
 " -------------------------------------------------------------------
 " -- Mouse Support
 " -------------------------------------------------------------------
-set mouse=a
+set mouse=
 
 " get around the "/dev/gpmctl: No such file or directory"
 " bug with set mouse=a
@@ -388,11 +389,10 @@ set smartcase
 
 " -- Text Width
 "
-" text width at 72 characters
-" (best to view 4 vertical windows on 30'' screen)
-"let g:textwidth = 72
+" text width at 78 characters
+"let g:textwidth = 78
 "set textwidth=g:textwidth
-set textwidth=72
+set textwidth=78
 " set formatoptions to avoid breaking lines in insert mode
 "set formatoptions=roqM1
 set formatoptions=qM1
