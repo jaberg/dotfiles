@@ -21,4 +21,5 @@ startup_message off
 msgwait 1
 
 #this might help scrolling to work
-termcapinfo xterm ti@:te@
+#termcapinfo xterm ti@:te@
+vbell off
