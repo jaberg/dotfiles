@@ -1,0 +1,7 @@
+! That pesky caps_lock key, make it Control_L:
+remove Lock = Caps_Lock
+keysym Caps_Lock = Control_L
+add Control = Control_L
+
+keycode 9 = grave asciitilde
+keycode 49 = Escape
