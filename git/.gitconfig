@@ -17,3 +17,5 @@
     lgol = "!git --no-pager log --pretty=oneline"
 [github]
     user = jaberg
+[push]
+	default = simple
