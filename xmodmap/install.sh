@@ -16,4 +16,6 @@ for f in .Xmodmap; do
     verbose ln -sf $(pwd)/$f ~/$f;
 done;
 
+echo ".Xmodmap installed but tool is deprecated. Use gnome-tweaks for ctrl-caps swap and ? for escape"
+
 # vim: expandtab tabstop=4 shiftwidth=4 autoindent smartindent tw=80:
